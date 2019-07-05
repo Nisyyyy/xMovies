@@ -1,0 +1,265 @@
+body
+{
+ width:100%;
+ height:100%;
+ background: linear-gradient(-70deg, #EE7752, #E73C7E, #23A605, #2305AB, black);
+ background-size:400% 400%; 
+ position:relative;
+animation: change 7s ease-in-out infinite;
+
+}
+@keyframes change {
+	0%
+	{
+		background-position: 0% 50%;
+	}
+	50%
+	{
+		background-position: 100% 50%;
+	}
+	100%
+	{
+		background-position: 0% 50%;
+	}
+}
+
+body.night
+{
+    background: #00151f;
+}
+.circle{
+	position:fixed;
+	top:24px;
+	left:2px;
+	background-color:black;
+	height :70px;
+	width: 90px;
+	border-radius:50%;
+
+}
+.toggle
+{
+    position: fixed;
+    top: 49px;
+    left:22px;
+    background: #fff;
+    border: 2px solid #00151f;
+    width: 45px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.toggle.active
+{
+    background: #00151f;
+    border: 2px solid #fff;
+}
+.toggle:before
+{
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 16px;
+    height: 16px;
+    background: #00151f;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.toggle.active:before
+{
+    left: 27px;
+    background: #fff;
+}
+.content
+{
+    margin: 100px auto;
+    width: 1000px;
+}
+.content h1
+{
+    margin: 0 0 20px;
+    padding: 0;
+    color: #000;
+    transition: 0.5s;
+}
+.content p
+{
+    margin: 0;
+    padding: 0;
+    color: #000;
+    transition: 0.5s;
+    font-size: 18px;
+}
+body.night .content h1,
+body.night .content p
+{
+    color: #fff;
+}
+
+nav ul li{
+	margin-right: 18px;
+	display: inline;
+	color: black;
+	position: relative;
+	top: -5px;
+}	
+header{
+	margin: 0px;
+	padding: 0px;
+	top:-8px;
+	width: 100%;
+	left: -8px;
+	position: relative;
+	background-color: white;
+		padding: 1px;
+}
+li{
+	list-style-type: none;
+}
+nav ul a{
+	text-decoration: none;
+	color : black;
+	position: relative;
+}
+.current{
+	font-size: 23px;
+	position: relative;
+	color: green;
+}
+header nav ul a:hover{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding: 6px;
+	position: relative;
+}
+
+
+
+
+
+.buscar-caja {
+ position: fixed;
+ top: 32px;
+ right: 13px;
+ background: black;
+ height: 40px;
+ border-radius: 40px;
+ padding: 7px;
+}
+
+.buscar-caja:hover > .buscar-txt {
+ width: 220px;
+ transition: 1.7s;
+}
+
+.buscar-caja:hover > .buscar-btn {
+ background: #1b3e75;
+ color: black;
+}
+.sld a{
+ width:100%;
+ height:100%;
+background-color:black;
+ position:relative;	
+ 	text-decoration: none;
+	color: white;
+	font-size: 32px;
+	padding: 20px;
+}
+.sld a:hover{
+	background-color: white;
+	color: black;
+}
+.header2 nav ul{
+	float: right;
+}
+.header2 nav li{
+ width:100%;
+ height:100%;
+ background: linear-gradient(-90deg, pink, yellow, pink);
+ background-size:400% 400%;
+ position:relative;	
+ padding: 12px;
+ border-radius: 28px;
+}
+.header2 nav li:hover{
+	opacity: 0.4;
+}
+.sld .currentsld{
+	background-color: white;
+	color: black;
+}
+.buscar-btn {
+ color: #e84118;
+ float: right;
+ width: 40px;
+ height: 40px;
+ border-radius: 50%;
+ background: black;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: 1s;
+ color: white;
+}
+
+.buscar-btn > i {
+ font-size: 30px;
+}
+.mm video{
+	width: 750px;
+	height: 600px;
+	position: relative;
+	top: 20px;
+}
+.mm p{
+	font-size: 20px;
+	position: relative;
+	top: 20px;
+	color: #2BC0E4;
+}
+
+
+.info img{
+	top: 80px;
+	position: relative;
+	left: 173px;
+}
+div.mm{
+	background-color: grey;
+	width: 900px;
+	height: 700px;
+	top: 70px;
+	background-image:linear-gradient(black,#2BC0E4,#222); 
+	border-radius: 10px;
+	position: relative;
+}
+.mm .info{
+	position:relative;
+	top: 40px;
+}
+.buscar-txt {
+ border: none;
+ background: none;
+ outline: none;
+ float: left;
+ padding: 0;
+ color: white;
+ font-size: 16px;
+ transition: 0.4s;
+ line-height: 40px;
+ width: 0px;
+ font-weight: bold;
+}﻿
+#movies img{
+	position: absolute;
+	padding: 10px;
+}
+.movies2 img:hover{
+	opacity: 0.4;
+}
+hr{
+	background: black;
+}

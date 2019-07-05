@@ -1,0 +1,97 @@
+.search{
+	position: relative;
+	top:  40px;
+}
+.logo img{
+	width: 15%;
+	margin-top: 20px;
+}
+header{
+	margin: 0px;
+	padding: 0px;
+	top:-8px;
+	width: 100%;
+	left: 0px;
+	position: relative;
+	background-color: white;
+		padding: 1px;
+}
+.current{
+	font-size: 23px;
+	position: relative;
+	color: green;
+}
+nav ul li{
+	margin-right: 18px;
+	display: inline;
+	color: black;
+	position: relative;
+	top: -5px;
+}	
+li{
+	list-style-type: none;
+}
+nav ul a{
+	text-decoration: none;
+	color : black;
+	position: relative;
+}
+header nav ul a:hover{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	padding: 6px;
+	position: relative;
+}
+
+footer{
+	border-radius:20px;
+	width: 50%; 
+	position: relative;
+	top: 675px;
+	text-align: center;
+	background: -webkit-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+	background:    -moz-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+	background:       -ms-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+	background:          -o-linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+	background: 	        linear-gradient(90deg, #2BC0E4 10%, #EAECC6 90%);
+}
+
+
+button[type="button"]{
+	padding: 20px;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+div.search input[type="search"]{
+	padding: 20px;
+	width: 400px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+body
+{
+	margin:0;
+}
+
+@keyframes change {
+	0%
+	{
+		background-position: 0% 50%;
+	}
+	50%
+	{
+		background-position: 100% 50%;
+	}
+	100%
+	{
+		background-position: 0% 50%;
+	}
+}
+footer{
+	position:fixed;
+	top:880px;
+	right:280px;
+
+}
